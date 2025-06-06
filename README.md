@@ -1,11 +1,12 @@
 # 👋 Hi! Hello! Welcome!
 
 ```python
+# inspired by: https://github.com/Zhenye-Na/Zhenye-Na
+
 class User:
     def __init__(self, name, pronouns, age, languages):
         self.name = name
         self.pronouns = pronouns
-        self.age = age
         self.languages = languages
     
     def greet(self):
@@ -14,7 +15,6 @@ class User:
 ghostyx = User(
     name="Ghostyx",
     pronouns="he/him",
-    age=21,
     languages=["en-US"]
 )
 
