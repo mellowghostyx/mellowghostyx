@@ -2,7 +2,7 @@
 # inspired by: https://github.com/Zhenye-Na/Zhenye-Na
 
 class User:
-    def __init__(self, name, pronouns, age, languages):
+    def __init__(self, name, pronouns, languages):
         self.name = name
         self.pronouns = pronouns
         self.languages = languages
