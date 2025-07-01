@@ -1,6 +1,3 @@
-# 👋 Hi! Hello! Welcome!
-
-```ruby
 #!/usr/bin/env ruby
 
 class User
@@ -19,8 +16,3 @@ if __FILE__ == $0
   ghostyx = User.new('Ghostyx', 'he/him', 'English')
   ghostyx.say_hi
 end
-```
-
-```
-Hello! I'm Ghostyx, and welcome to my readme!
-```

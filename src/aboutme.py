@@ -1,5 +1,4 @@
-# The actual code used in my README.md
-# inspired by: https://github.com/Zhenye-Na/Zhenye-Na
+#!/usr/bin/env python3
 
 class User:
     def __init__(self, name, pronouns, language):
@@ -7,8 +6,9 @@ class User:
         self.pronouns = pronouns
         self.language = language
 
-    def greet(self):
+    def say_hi(self):
         print(f"Hello! I'm {self.name}, and welcome to my readme!")
 
-ghostyx = User('Ghostyx', 'he/him', 'en-US')
-ghostyx.greet()
+if __name__ == '__main__':
+    ghostyx = User('Ghostyx', 'he/him', 'English')
+    ghostyx.say_hi()
