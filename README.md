@@ -1,26 +1,15 @@
-# 👋 Hi! Hello! Welcome!
+# 👋 Hello! Welcome!
 
-```ruby
-#!/usr/bin/env ruby
+[![Shell: Zsh](https://img.shields.io/badge/Shell-Zsh-F15A24?logo=zsh&logoColor=F15A24)](https://starship.rs)
+[![OS: Fedora](https://img.shields.io/badge/OS-Fedora-51A2DA?logo=fedora&logoColor=51A2DA)](https://linuxmint.com)
+[![Editor: VSCodium](https://img.shields.io/badge/Editor-VSCodium-2F80ED?logo=vscodium&logoColor=2F80ED)](https://vscodium.com)
+[![Prompt: Starship](https://img.shields.io/badge/Prompt-Starship-DD0B78?logo=starship&logoColor=DD0B78)](https://starship.rs)
 
-class User
-  def initialize(name, pronouns, language)
-    @name = name
-    @pronouns = pronouns
-    @language = language
-  end
+Just a hobbyist programmer who likes to write code in his freetime
 
-  def say_hi
-    puts "Hello! I'm #{@name}, and welcome to my readme!"
-  end
-end
-
-if __FILE__ == $0
-  ghostyx = User.new('Ghostyx', 'he/him', 'English')
-  ghostyx.say_hi
-end
-```
-
-```
-Hello! I'm Ghostyx, and welcome to my readme!
+```toml
+name = 'Ghostyx'
+pronouns = 'he/him'
+birthdate = 2003-08-08
+interests = ['coding', 'conlangs', 'gunpla', 'video games']
 ```
